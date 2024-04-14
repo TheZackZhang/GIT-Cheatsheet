@@ -6,6 +6,20 @@
 ### add
 ### commit
 ### reset
+```
+git reset [<mode>] [<commit>]
+```
+- Resets the current branch head to \<commit>, and possibly updates the index and the working tree depending on \<mode>
+
+Options:
+- --soft
+  - Resets head
+- --mixed
+  - Resets head, index
+- --hard
+  - Resets head, index, and working tree
+
+
 ### mv
 ### rm
 
