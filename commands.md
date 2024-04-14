@@ -132,3 +132,28 @@ Options:
 ## Debugging
 ### bisect
 ### blame
+
+
+## Misc
+### clean
+```
+git clean -d -f -i -n -q [-e <pattern>] [-x|-X] [--] [<pathspec>...]
+```
+
+```
+git clean -fdx
+```
+
+Options:
+- -d
+  - Recurse into untracked directories
+- -f --force
+  - force delete files and directories
+- -i --interactive
+- -n --dry-run
+- -q --quiet
+- -e --exclude
+- -x 
+  - Don't use the standard ignore rules
+- -X
+  - Remove only files ignored by git
